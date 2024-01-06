@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:scrollbars="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        >
+        <TextView
+            android:id="@+id/statusBlutoothTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAlignment="center"
+            android:padding="25dp"
+            android:layout_marginTop="12dp"
+            android:textSize="20sp"
+            android:textColor="#000"
+            />
+
+        <ImageView
+            android:id="@+id/blutoothIcon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="25dp"
+            />
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="On Blutooth"
+            android:minWidth="200dp"
+            android:textSize="25sp"
+            android:layout_marginTop="25dp"
+            android:id="@+id/blutoothOnBtn"
+            style="@style/Widget.Design.BottomNavigationView"
+            />
+        <Button
+            style="@style/Widget.Design.BottomNavigationView"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Off Blutooth"
+            android:minWidth="200dp"
+            android:textSize="25sp"
+            android:layout_marginTop="25dp"
+            android:id="@+id/blutoothOffBtn"
+            />
+        <Button
+            style="@style/Widget.Design.BottomNavigationView"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Discoverable"
+            android:minWidth="200dp"
+            android:textSize="25sp"
+            android:layout_marginTop="25dp"
+            android:id="@+id/discoverableBtn"
+            />
+        <Button
+            style="@style/Widget.Design.BottomNavigationView"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Paired device"
+            android:minWidth="200dp"
+            android:textSize="25sp"
+            android:layout_marginTop="25dp"
+            android:id="@+id/PairedDeviceBtn"
+            />
+
+        <TextView
+            android:id="@+id/PairedDevicesText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAlignment="center"
+            android:padding="25dp"
+            android:layout_marginTop="12dp"
+            android:textSize="20sp"
+            android:textColor="#000"
+            />
+
+    </LinearLayout>
+
+</ScrollView>
